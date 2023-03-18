@@ -25,7 +25,7 @@ const ClientsPage: FC = () => {
           <li key={client.id}>
             <Link
               href={{
-                pathname: "/clients/[clientId]",
+                pathname: "clients/[clientId]",
                 query: {
                   clientId: client.id,
                 },
